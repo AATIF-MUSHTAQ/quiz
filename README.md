@@ -66,3 +66,8 @@ HTML5, CSS3, JavaScript (ES6+)
 localStorage for leaderboard persistence
 
 Fetch API for data loading
+
+
+video: 
+https://github.com/user-attachments/assets/e63ec44b-33e4-445a-bb95-4a81449eb971
+
