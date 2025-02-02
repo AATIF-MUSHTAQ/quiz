@@ -20,7 +20,7 @@ Clone the repository:
 
 bash
 Copy
-git clone https://github.com/your-username/quizmaster.git  
+git clone https://github.com/AATIF-MUSHTAQ/quiz
 cd quizmaster  
 Serve the application:
 
