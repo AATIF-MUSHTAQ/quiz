@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div id="quiz-container">
+        <!-- Home Page -->
+        <div id="home-page">
+            <h1>Welcome to the Quiz App!</h1>
+            <p>Test your knowledge and earn points to climb the leaderboard.</p>
+            <button id="start-button" aria-label="Start Quiz">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Page (hidden by default) -->
+        <div id="quiz-page" style="display: none;">
+            <h1>Quiz Time!</h1>
+            <div id="question">Loading question...</div>
+            <div id="options">
+                <!-- Options will be dynamically inserted here -->
+            </div>
+            <button id="next-button" aria-label="Next Question" style="display: none;">Next Question</button>
+            <div id="timer">Time left: <span id="time-left">10</span> seconds</div>
+            <div id="score">Score: 0</div>
+        </div>
+
+        <!-- Results Page (hidden by default) -->
+        <div id="results-page" style="display: none;">
+            <h1>Quiz Completed!</h1>
+            <p>Your final score: <span id="final-score">0</span></p>
+            <div id="badges">
+                <p>Badges Earned:</p>
+                <ul id="badges-list"></ul>
+            </div>
+            <div id="leaderboard">
+                <p>Leaderboard:</p>
+                <ol id="leaderboard-list"></ol>
+            </div>
+            <button id="retry-button" aria-label="Retry Quiz">Retry Quiz</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

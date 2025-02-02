@@ -1,0 +1,51 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "correctAnswer": "Paris",
+        "difficulty": "easy",
+        "category": "Geography"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "correctAnswer": "Mars",
+        "difficulty": "easy",
+        "category": "Science"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Shark"],
+        "correctAnswer": "Blue Whale",
+        "difficulty": "medium",
+        "category": "Science"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+        "correctAnswer": "William Shakespeare",
+        "difficulty": "medium",
+        "category": "Literature"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "NaCl", "O2"],
+        "correctAnswer": "H2O",
+        "difficulty": "easy",
+        "category": "Science"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "correctAnswer": "Pacific Ocean",
+        "difficulty": "easy",
+        "category": "Geography"
+    },
+    {
+        "question": "Who discovered gravity?",
+        "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+        "correctAnswer": "Isaac Newton",
+        "difficulty": "medium",
+        "category": "Science"
+    }
+]
